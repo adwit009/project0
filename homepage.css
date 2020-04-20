@@ -1,26 +1,32 @@
-h1 { 
-	color: orange;
-	text-align: center;	
-
+h1 {
+  color: orange;
+  text-align: center;
 }
- 
-
-
-
-table {
-	width: 100%;
-	
-}
-
-
-
-th {
-	font-size: 35px;
-
-
-}
-
 .firstrow {
-	text-align: center;
-
+  text-align: center;
+}
+.firstrow td {
+  padding: 10px;
+}
+.firstrow th {
+  font-size: 35px;
+  margin-top: 40px;
+}
+.firstrow table {
+  width: 98%;
+  margin: 20px;
+}
+.secondrow {
+  text-align: center;
+}
+.secondrow td {
+  padding: 20px;
+}
+.secondrow th {
+  font-size: 25px;
+  margin-top: 60px;
+}
+.secondrow table {
+  width: 95%;
+  margin: 40px;
 }
